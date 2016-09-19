@@ -1,34 +1,28 @@
-How did viewing a diff between two versions of a file help you see the bug that
-was introduced?
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
     It shortened the amount of time needed to examine the differences between two files by only displaying the lines in which there were differences and and annotating between the old and new versions with (+) and (-) symbols.
 
-How could having easy access to the entire history of a file make you a more
-efficient programmer in the long term?
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
     This would allow you to be able to quickly pinpoint the differences between multiple versions of files, easily revert to previous saved versions, and allow for quick bug testing when adding new components or functionality to your code or program.
 
-What do you think are the pros and cons of manually choosing when to create a
-commit, like you do in Git, vs having versions automatically saved, like Google
-docs does?
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
-    The pros would be it gives you more control over when you want to save changes. It also allows you to group chuncks of code to be saved together with descriptions so that you can more easily know what each version contains. 
+    The pros would be it gives you more control over when you want to save changes. It also allows you to group code to be saved together with descriptions so that you can more easily know what each version contains. 
     The cons would be that without some form of automated saving function, you could more easily lose unsaved code in the event an error occured before being able to save. 
 
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
     When building software or a website, your code is typically spread out throughout multiple files and is reliant / related to each other to allow for the program or website to be  function or operate properly. Therefore, allowing you to save multiple files in one commit enables you to keep all of the changes to a specific function or component together. 
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Go to the folder in which the files are you wish to compare and type in the command line (mac) diff -u old_file.extension new_file.extension and press enter. Within the command line tool, the sections of the files in which there were changes made to will be displayed with either the (-) symbol for removed parts and the (+) symbol for added parts.
+    Git log allows you to view the commit history so that you can skim through what changes were made based on the given descriptions. Git diff allows you to compare the actual changes to the code base between two specified files. 
 
-How might using version control make you more confident to make changes that
-could break something?
+How might using version control make you more confident to make changes that could break something?
 
-    Even if you make a mistake and break something you can always revert back to an older version that was previously working fine.
+    Even if you make a mistake and break something you can always revert back to an older version that was previously working fine. Therefore it allows for more freedom to try new things.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Saving file versions when creating websites.
+    Saving file versions of everything I create. :)
