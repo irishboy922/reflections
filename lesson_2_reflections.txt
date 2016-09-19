@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When initializing a git repository, git creates an empty repository in which you are able to begin adding (commiting) files to. You need to do this so that git can begin tracking the changes made to files and store them in meta data versioning.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area holds files that you want to add to your next commit. This allows you to pre-determine and give a snapshot of which files you want to be included in your commit before you actually commit them.
