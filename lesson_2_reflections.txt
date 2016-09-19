@@ -1,21 +1,43 @@
-What happens when you initialize a repository? Why do you need to do it?
+What happens when you initialize a repository? 
 
-	When initializing a git repository, git creates an empty repository in which you are able to begin adding (commiting) files to. You need to do this so that git can begin tracking the changes made to files and store them in meta data versioning.
+	When initializing a git repository, git creates an empty repository in which you are able to begin adding (commiting) files to. 
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-	The staging area holds files that you want to add to your next commit. This allows you to pre-determine and give a snapshot of which files you want to be included in your commit before you actually commit them.
+Why do you need to do it?
+
+	You need to do this so that git can begin tracking the changes made to files and store them in meta data versioning.
+
+How is the staging area different from the working directory and the repository? 
+
+	The staging area holds files that you want to add to your next commit but are not yet added to your repository.
+
+What value do you think it offers?
+
+	 This allows you to pre-determine and give a snapshot of which files you want to be included in your commit before you actually commit them.
 
 How can you use the staging area to make sure you have one commit per logical change?
+
 	The staging area will allow for one to double check what they are planning to commit as well as examine the changes via git diff before commiting anything to the repository.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-	Branches would be helpful in situations in which you desire to add a new feature or create a second version of the same program or website. This is helpful because it allows you to not disrupt the master branch when making the changes.
+What are some situations when branches would be helpful in keeping your history organized? 
+
+	Branches would be helpful in situations in which you desire to add a new feature to or create a second version of your code base. 
+
+How would branches help?
+
+	This is helpful because it allows you to not disrupt the master branch when making the changes.
 
 How do the diagrams help you visualize the branch structure?
+
 	They allow us to visually see how branches and detached heads are related to the master branch.
 
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-	Merging two branches together allows us to combine the commits of both branches together. Typically a branch will be merged into the master. We represent it in the diagram so that that you can see which changes or commits were conducted to what branches and what time. 
+What is the result of merging two branches together? 
+
+	Merging two branches together allows us to combine the commits of both branches together. Typically a branch will be merged back into the master. 
+
+Why do we represent it in the diagram the way we do?
+
+	We represent it in the diagram so that that you can see which changes or commits were conducted to what branches and at what point in time. 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-	Pros of automatic merging is that git will logically acombine code dependent on how to merging code bases were edited. The cons would be that there is less control of what is removed and what is added when merging.
+
+	Pros of automatic merging is that git will logically combine code dependent on how to merging code bases were edited. The cons would be that there is less control of what is removed and what is added when merging.
