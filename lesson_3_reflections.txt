@@ -1,11 +1,15 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-  You would want to use a remote repository when you need to collaborate with other people or work on multible machines.
+  	You would want to use a remote repository when you need to collaborate with other people or work on multible machines.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-  It's better to pull changes manually so that you have more control as to when and what changes you are synching to your remote repository. Also, in the case of collaborating with others, there might be times when you are working on a new feature or component that is not ready to be shown to others. 
+ 	 It's better to pull changes manually so that you have more control as to when and what changes you are synching to your remote repository. Also, in the case of collaborating with others, there might be times when you are working on a new feature or component that is not ready to be shown to others. 
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-  Branches are extensions of the original master branch that enables you to work on files and code without disrupting the production ready code. Clones are copies of a repository that can be stored in the cloud or locally. Forks are essentially clones that are made by and stored on the git hosting services servers.
+	Branches are extensions of the original master branch that enables you to work on files and code without disrupting the production ready code. Clones are copies of a repository that can be stored in the cloud or locally. Forks are essentially clones that are made by and stored on the git hosting services servers.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	By having a copy of the last known state locally, you are able to make sure that your code base is up-to-date with the most recent changes and features.
